@@ -9,3 +9,10 @@ end
 # test.rb:14:in `inner_method'
 # test.rb:7:in `first_method'
 # test.rb:17:in `<main>'
+
+
+# 用 puts 方法，调试错误
+# You can use puts to do things like:
+# • Printing out the values of variables
+# • Keeping track of when methods were called
+# • Binary searching to narrow down where a bug could be hiding (like playing the “guess a number” game)
