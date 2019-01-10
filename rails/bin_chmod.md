@@ -25,3 +25,8 @@ IRB.start(__FILE__)
 ```
 
 #### 如何修改文件的权限 ？
+
+```bash
+chmod +x exe/mega_lotto
+
+```

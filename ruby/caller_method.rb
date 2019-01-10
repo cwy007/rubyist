@@ -10,7 +10,6 @@ end
 # test.rb:7:in `first_method'
 # test.rb:17:in `<main>'
 
-
 # 用 puts 方法，调试错误
 # You can use puts to do things like:
 # • Printing out the values of variables
