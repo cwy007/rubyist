@@ -14,6 +14,8 @@ redis-cli DEL  `redis-cli KEYS "user:*"`
 TYPE bar
 
 ### 5 中主要的数据类型
+redis 不支持数据类型嵌套
+
 #### string
 SET key value
 GET key
@@ -39,6 +41,24 @@ BITCOUNT key [start] [end]
 BITOP operation destkey key [key...]
 
 #### hash 散列
+键，字段，字段值
+
+HSET key field value
+HGET key field
+HMSET key field value [field, value...]
+HMGET key field [field...]
+HGETALL key
+
+HEXISTS key
+
+HSETNX key field value
+
+HINCRBY key field increment
+
+HDEL key field [field...]
+
+HKEYS key
+HVALS key
 
 #### list 列表
 
