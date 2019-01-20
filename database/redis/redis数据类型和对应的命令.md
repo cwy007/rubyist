@@ -61,6 +61,26 @@ HKEYS key
 HVALS key
 
 #### list 列表
+LPUSH key value [value...]
+RPUSH key value [value...]
+
+LPOP key
+RPOP key
+
+LLEN key
+
+LRANGE key start stop
+
+LREM key count value
+
+LINDEX key index
+LSET key index value
+
+LTRIM key start end
+
+LINSERT key BEFORE|AFTER pivot value
+
+RPOPLPUSH source destination
 
 #### set  集合
 
